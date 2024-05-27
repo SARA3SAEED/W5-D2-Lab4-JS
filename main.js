@@ -1,8 +1,4 @@
 
-let width1 ='50%';
-let height1 ='290px';
-let borderRadius1 = '20px';
-let backgroundColor1 = 'green';
 
 
 
@@ -10,13 +6,21 @@ let square = document.getElementById('square');
 let btn = document.getElementById('btn');
 let btn2 = document.getElementById('btn2');
 
+let t1 = document.getElementById('t1');
+let t2 = document.getElementById('t2');
+let t3 = document.getElementById('t3');
+let t4 = document.getElementById('t4');
 
 
 btn.addEventListener('click', () => {
-    square.style.width = width1 ;
-    square.style.height = height1;
-    square.style.borderRadius = borderRadius1;
-    square.style.backgroundColor = backgroundColor1;
+    square.style.width = t1.value + 'px';
+    square.style.height = t2.value + 'px';
+    square.style.borderRadius = t3.value + 'px';
+    square.style.backgroundColor = t4.value;
+  
+
+
+ 
 });
 
 
